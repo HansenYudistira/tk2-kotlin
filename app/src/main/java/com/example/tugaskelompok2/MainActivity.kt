@@ -37,6 +37,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showCatalogLayout() {
-        setContentView(R.layout.activity_catalog)
+        startActivity(Intent(this, CatalogActivity::class.java))
     }
 }
